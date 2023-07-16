@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <title>외래종을 알아보자!</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-texxt">CHAT</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="chat">
+                <div id="chat-bot">
+                    <div id="bot-img"><img src="/static/images/robot.png" alt="로봇 이미지" class="bot-img"></div>
+                    <div id="bot-content">
+                        <div id="content-text-bot">어떤 동식물에 대해 알려드릴까요?</div>
+                    </div>
+                </div>
+                
+                <div id="loading-container" style="display: none;">
+                    Loading...
+                </div>
+            </div>
+
+            <div class="choice">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <main>
+            <div class="footer">푸터</div>
+        </main>
+    </footer>
+</body>
+</html>
